@@ -1,0 +1,143 @@
+2025-10-07 18:56:07,708 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 18:56:08,273 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 18:56:22,227 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 18:56:22,575 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 18:56:39,654 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 18:56:40,070 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:35:13,926 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:35:14,428 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:35:14,446 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:35:14,505 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=12h&startTime=1759266000000&limit=1000 HTTP/11" 403 919
+2025-10-07 19:35:14,505 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-07 19:35:36,277 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:35:36,630 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:35:36,645 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:35:36,706 DEBUG :: https://fapi.binance.com:443 "GET /api/v1/klines?symbol=btcusdt&interval=12h&startTime=1759266000000&limit=1000 HTTP/11" 403 919
+2025-10-07 19:35:36,706 ERROR :: Connection error while making GET request to /api/v1/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-07 19:35:54,442 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:35:54,837 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:35:54,853 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:35:54,931 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=12h&startTime=1759266000000&limit=1000 HTTP/11" 403 919
+2025-10-07 19:35:54,932 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-07 19:36:36,474 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:36:37,688 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:36:37,998 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:36:39,009 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=12h&startTime=1759266000000&limit=1000 HTTP/11" 403 118
+2025-10-07 19:36:39,010 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-07 19:37:31,770 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:37:32,206 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:37:32,222 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:37:32,284 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=12h&startTime=1759266000000&limit=1000 HTTP/11" 403 919
+2025-10-07 19:37:32,284 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-07 19:37:49,980 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:37:50,354 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:37:50,377 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:37:50,438 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=12h&startTime=1759266000000&limit=1000 HTTP/11" 403 919
+2025-10-07 19:37:50,438 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-07 19:38:17,528 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:38:17,876 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:38:17,892 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:38:18,050 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=12h&startTime=1759266000000&limit=1000 HTTP/11" 403 919
+2025-10-07 19:38:18,051 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-07 19:38:27,022 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:38:27,376 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:38:27,430 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:38:27,492 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=12h&startTime=1759266000000&limit=1000 HTTP/11" 403 919
+2025-10-07 19:38:27,493 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-07 19:42:12,593 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:42:13,022 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:42:13,039 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:42:13,095 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=12h&limit=1000 HTTP/11" 403 919
+2025-10-07 19:42:13,095 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-07 19:42:38,745 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:42:39,093 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:42:39,118 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:42:39,224 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&limit=1000 HTTP/11" 403 919
+2025-10-07 19:42:39,224 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-07 19:42:48,259 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:42:48,583 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:42:48,610 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:42:48,682 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&limit=1000 HTTP/11" 403 919
+2025-10-07 19:42:48,683 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-07 19:43:25,883 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:43:26,366 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-07 19:43:26,384 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-07 19:43:26,453 DEBUG :: https://fapi.binance.com:443 "GET /api/v1/klines?symbol=btcusdt&interval=1h&limit=1000 HTTP/11" 403 919
+2025-10-07 19:43:26,454 ERROR :: Connection error while making GET request to /api/v1/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-10 15:09:07,313 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:09:07,763 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-10 15:09:08,043 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:09:08,087 DEBUG :: https://fapi.binance.com:443 "GET /api/v1/klines?symbol=btcusdt&interval=1h&limit=1000 HTTP/11" 403 919
+2025-10-10 15:09:08,087 ERROR :: Connection error while making GET request to /api/v1/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-10 15:09:20,636 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:09:20,959 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-10 15:09:20,971 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:09:21,013 DEBUG :: https://fapi.binance.com:443 "GET /api/v1/klines?symbol=btcusdt&interval=1h&limit=1000 HTTP/11" 403 919
+2025-10-10 15:09:21,014 ERROR :: Connection error while making GET request to /api/v1/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-10 15:10:13,661 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:10:14,132 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-10 15:10:14,143 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:10:14,187 DEBUG :: https://fapi.binance.com:443 "GET /api/v1/klines?symbol=btcusdt&interval=1h&startTime=1759266000000&limit=1000 HTTP/11" 403 919
+2025-10-10 15:10:14,187 ERROR :: Connection error while making GET request to /api/v1/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-10 15:10:23,983 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:10:24,313 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-10 15:10:24,324 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:10:24,367 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&startTime=1759266000000&limit=1000 HTTP/11" 403 919
+2025-10-10 15:10:24,368 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-10 15:11:33,980 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:11:34,576 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-10 15:11:34,844 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:11:34,889 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&startTime=1759266000000&limit=1000 HTTP/11" 403 919
+2025-10-10 15:11:43,213 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:11:43,539 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-10 15:11:43,552 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:11:43,596 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&startTime=1759266000000&limit=1000 HTTP/11" 403 919
+2025-10-10 15:16:44,368 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:16:44,688 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-10 15:16:44,708 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:16:44,752 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&startTime=1759266000000&limit=1000&signature=b629585913cf5926aedbcb46d13b58a8c3be2b2b393a438c649a30c9a8104b06 HTTP/11" 403 919
+2025-10-10 15:16:44,752 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-10 15:17:07,212 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:17:07,523 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-10 15:17:07,535 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:17:07,576 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&limit=1000&signature=b629585913cf5926aedbcb46d13b58a8c3be2b2b393a438c649a30c9a8104b06 HTTP/11" 403 919
+2025-10-10 15:17:07,577 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-10 15:18:58,229 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:18:58,549 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-10 15:18:58,553 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:18:58,855 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-10 15:18:58,867 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:18:58,929 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&startTime=1759266000000&limit=1000&signature=b629585913cf5926aedbcb46d13b58a8c3be2b2b393a438c649a30c9a8104b06 HTTP/11" 403 919
+2025-10-10 15:18:58,930 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:18:58,974 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&startTime=1759266000000&limit=1000&signature=b629585913cf5926aedbcb46d13b58a8c3be2b2b393a438c649a30c9a8104b06 HTTP/11" 403 919
+2025-10-10 15:18:58,974 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-10 15:19:12,027 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:19:12,336 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/exchangeInfo HTTP/11" 200 None
+2025-10-10 15:19:56,627 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:19:56,687 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&startTime=1759266000000&limit=1000&signature=b629585913cf5926aedbcb46d13b58a8c3be2b2b393a438c649a30c9a8104b06 HTTP/11" 403 919
+2025-10-10 15:19:56,688 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-10 15:20:20,639 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:20:20,697 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&startTime=1759266000000&limit=1000&signature=b629585913cf5926aedbcb46d13b58a8c3be2b2b393a438c649a30c9a8104b06 HTTP/11" 403 919
+2025-10-10 15:20:30,912 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:20:30,966 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=btcusdt&interval=1h&startTime=1759266000000&limit=1000&signature=b629585913cf5926aedbcb46d13b58a8c3be2b2b393a438c649a30c9a8104b06 HTTP/11" 403 919
+2025-10-10 15:23:27,556 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:23:27,762 DEBUG :: https://fapi.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1h&startTime=1759266000000&limit=1000&signature=34aabfaf5289ba0902b7f789d09f4662bd71068607832c1dd7ae4f83ed4d7aae HTTP/11" 403 919
+2025-10-10 15:23:27,762 ERROR :: Connection error while making GET request to /api/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-10 15:25:14,720 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:25:15,016 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v3/klines?symbol=BTCUSDT&interval=1h&startTime=1759266000000&limit=1000&signature=34aabfaf5289ba0902b7f789d09f4662bd71068607832c1dd7ae4f83ed4d7aae HTTP/11" 404 None
+2025-10-10 15:25:15,017 ERROR :: Connection error while making GET request to /fapi/v3/klines endpoint: Expecting value: line 1 column 1 (char 0)
+2025-10-10 15:25:20,263 DEBUG :: Starting new HTTPS connection (1): fapi.binance.com:443
+2025-10-10 15:25:20,569 DEBUG :: https://fapi.binance.com:443 "GET /fapi/v1/klines?symbol=BTCUSDT&interval=1h&startTime=1759266000000&limit=1000&signature=34aabfaf5289ba0902b7f789d09f4662bd71068607832c1dd7ae4f83ed4d7aae HTTP/11" 200 None
+2025-10-10 15:26:20,218 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2025-10-10 15:26:20,527 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1h&startTime=1759266000000&limit=1000&signature=34aabfaf5289ba0902b7f789d09f4662bd71068607832c1dd7ae4f83ed4d7aae HTTP/11" 400 97
+2025-10-10 15:26:20,528 ERROR :: Error while making GET request to /api/v3/klines: {'code': -1104, 'msg': "Not all sent parameters were read; read '4' parameter(s) but was sent '5'."} (error code 400)
+2025-10-10 15:26:42,358 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2025-10-10 15:26:42,667 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1h&startTime=1759266000000&limit=1000 HTTP/11" 200 13852
+2025-10-10 15:27:51,114 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2025-10-10 15:27:51,427 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1h&startTime=1759266000000&limit=1000 HTTP/11" 200 13852
+2025-10-10 15:28:08,810 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2025-10-10 15:28:09,124 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1h&startTime=1759266000000&limit=1200 HTTP/11" 200 13854
+2025-10-10 15:28:27,750 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2025-10-10 15:28:28,050 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1h&startTime=1759266000000&limit=1200 HTTP/11" 200 13853
+2025-10-10 15:28:35,297 DEBUG :: Starting new HTTPS connection (1): api.binance.com:443
+2025-10-10 15:28:35,609 DEBUG :: https://api.binance.com:443 "GET /api/v3/klines?symbol=BTCUSDT&interval=1h&startTime=1727730000000&limit=1200 HTTP/11" 200 58341
