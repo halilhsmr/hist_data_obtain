@@ -47,7 +47,7 @@ def get_base_url(is_test: bool) -> dict[str, str]:
     else:
         urls = {
             "base_url" : "https://api.binance.com",
-            "wss_url" : "wss://stream.binance.com:9443"
+            "wss_url" : "wss://stream.binance_futures.com:9443"
         }
     return urls
 
@@ -94,7 +94,7 @@ def get_contracts() -> dict[str, BinanceContract]:
 
 def get_historical_candles(sym:str, interval: str, start_time: int=0, end_time: int=0, limit=0):
     """
-    Gets historical binance kline data
+    Gets historical binance_futures kline data
     :param contract:
     :param interval:
     :param start_time:

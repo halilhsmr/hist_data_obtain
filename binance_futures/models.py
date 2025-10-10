@@ -3,7 +3,7 @@ import logging
 logger = logging.getLogger()
 
 class BinanceCandle:
-    def __init__(self, candle_info, timeframe, exchange = "binance"):
+    def __init__(self, candle_info, timeframe, exchange = "binance_futures"):
         self.info = candle_info
         self.timeframe = timeframe
         self.timestamp = candle_info[0]
