@@ -1,2 +1,3 @@
 .idea/*
-keys.py
+binance_futures/keys.py
+*/keys.py
