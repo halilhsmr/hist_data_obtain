@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61e81098-9d0d-4b52-8506-8fd108ca3ec6" name="Changes" comment="start working on get_historical_candles method">
-      <change afterPath="$PROJECT_DIR$/root_models.py" afterDir="false" />
+    <list default="true" id="61e81098-9d0d-4b52-8506-8fd108ca3ec6" name="Changes" comment="update binance_futures">
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/binance_futures/connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/binance_futures/connector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/binance_futures/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/binance_futures/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/root_models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
       <recent name="C:\Users\halil\Desktop\Coding_2024\hist_data_obtain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\halil\Desktop\Coding_2024\hist_data_obtain\binance_futures" />
       <recent name="C:\Users\halil\Desktop\Coding_2024\hist_data_obtain\binance" />
     </key>
   </component>
@@ -162,14 +164,40 @@
       <option name="project" value="LOCAL" />
       <updated>1760105944453</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update .gitignore">
+      <option name="closed" value="true" />
+      <created>1760607676465</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760607676465</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create root_models.py">
+      <option name="closed" value="true" />
+      <created>1760607690146</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760607690146</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update binance_futures">
+      <option name="closed" value="true" />
+      <created>1760607723906</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760607723906</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <MESSAGE value="update .gitignore" />
     <MESSAGE value="create trial.py" />
     <MESSAGE value="start working on get_historical_candles method" />
-    <option name="LAST_COMMIT_MESSAGE" value="start working on get_historical_candles method" />
+    <MESSAGE value="update .gitignore" />
+    <MESSAGE value="create root_models.py" />
+    <MESSAGE value="update binance_futures" />
+    <option name="LAST_COMMIT_MESSAGE" value="update binance_futures" />
   </component>
 </project>

@@ -1,11 +1,10 @@
 import logging
 
 import requests
-import datetime as dt
-
+from pprint import pprint
 from binance_futures import keys
 from binance_futures.models import BinanceContract, BinanceCandle
-
+from utils import *
 
 TF_EQUIV = {"1s":1, "1m": 60,"3m":180, "5m":300, "15m":900, "30m":1800, "1h":3600, "2h":3600*2,"4h":14400,
             "8h":14400*2, "12h":14400*3, "1d":14400*6, "3d":14400*18, "1w":14400*42, "1M": 14400*6*30}
@@ -92,9 +91,6 @@ class BinanceFuturesClient:
         :return:
         """
 
-        if limit:
-            candle_count = limit
-
         candles = []
 
         endpoint = "/api/v3/klines"
@@ -161,6 +157,7 @@ if __name__ == "__main__":
 
     btc_historical = client.get_historical_candles(btc_contract, "1h", limit=1500)
 
-    for candle in btc_historical:
-        ts = candle.timestamp
-        print(dt.datetime.fromtimestamp(ts))
+    # print(candle_to_df(btc_historical))
+
+    pprint(btc_historical[10].info_det)
+    print(candle_to_df_detailed(btc_historical, 'Number of trades', 'Quote asset volume'))
