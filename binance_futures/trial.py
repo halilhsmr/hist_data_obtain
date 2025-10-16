@@ -1,15 +1,10 @@
-from random import random
-
-import pandas as pd
-import typing
 import requests
 from models import *
-import time
 import datetime as dt
 import hashlib
 import hmac
 from urllib.parse import urlencode
-import keys
+from binance_futures import keys
 
 TF_EQUIV = {"1s":1, "1m": 60,"3m":180, "5m":300, "15m":900, "30m":1800, "1h":3600, "2h":3600*2,"4h":14400,
             "8h":14400*2, "12h":14400*3, "1d":14400*6, "3d":14400*18, "1w":14400*42, "1M": 14400*6*30}

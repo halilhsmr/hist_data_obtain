@@ -1,19 +1,21 @@
 import logging
+from root_models import Candle
 
 logger = logging.getLogger()
 
-class BinanceCandle:
-    def __init__(self, candle_info, timeframe, exchange = "binance_futures"):
+class BinanceCandle(Candle):
+    def __init__(self, candle_info, timeframe: str, exchange="binance_futures"):
+        super().__init__()
         self.info = candle_info
         self.timeframe = timeframe
-        self.timestamp = candle_info[0]
+        self.timestamp = int(candle_info[0] / 1000)
         self.open = float(candle_info[1])
         self.high = float(candle_info[2])
         self.low = float(candle_info[3])
         self.close = float(candle_info[4])
         self.volume = float(candle_info[5])
-    def get_all_info(self):
-        return self.info
+        self.exchange = exchange
+
 
 class BinanceContract:
     def __init__(self, contract_info):
@@ -21,14 +23,18 @@ class BinanceContract:
         self.symbol: str = contract_info['symbol']
         self.base_asset: str = contract_info['baseAsset']
         self.quote_asset: str = contract_info['quoteAsset']
-        self.price_decimals = float(contract_info['pricePrecision'])
-        self.quantity_decimals = float(contract_info['quantityPrecision'])
-        self.tick_size = 1 / pow(10, contract_info['pricePrecision'])
-        self.lot_size = 1 / pow(10, contract_info['quantityPrecision'])
+        self.price_decimals = float(contract_info['quoteAssetPrecision'])
+        self.quantity_decimals = float(contract_info['baseAssetPrecision'])
+        self.tick_size = 1 / pow(10, contract_info['quoteAssetPrecision'])
+        self.lot_size = 1 / pow(10, contract_info['baseAssetPrecision'])
         try:
-            self.min_notion = contract_info['filters'][5]['notional']
+            for filter_dict in contract_info['filters']:
+                if filter_dict['filterType'] == 'NOTIONAL':
+                    self.min_notion = filter_dict['minNotional']
+                    self.max_notion = filter_dict['maxNotional']
         except Exception as e:
             self.min_notion = 5.0
+            self.max_notion = 5000.0
             logger.error("Min_Notion not found in %s ... Adjusted to 5.0: %s", self.symbol, e)
 
     def get_all_info(self):

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61e81098-9d0d-4b52-8506-8fd108ca3ec6" name="Changes" comment="create trial.py">
-      <change afterPath="$PROJECT_DIR$/binance/connector.py" afterDir="false" />
+    <list default="true" id="61e81098-9d0d-4b52-8506-8fd108ca3ec6" name="Changes" comment="start working on get_historical_candles method">
+      <change afterPath="$PROJECT_DIR$/root_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binance_futures/connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/binance_futures/connector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/binance_futures/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/binance_futures/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "halilcodes"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;halilcodes&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/halilhsmr/hist_data_obtain",
-    "accountId": "8fdd1dd8-cd31-47a3-a5f9-1b8b66a95501"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/halilhsmr/hist_data_obtain&quot;,
+    &quot;accountId&quot;: &quot;8fdd1dd8-cd31-47a3-a5f9-1b8b66a95501&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -60,7 +62,29 @@
       <recent name="C:\Users\halil\Desktop\Coding_2024\hist_data_obtain\binance" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.connector">
+    <configuration name="connector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hist_data_obtain" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/binance_futures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/binance_futures/connector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="trial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hist_data_obtain" />
       <option name="ENV_FILES" value="" />
@@ -85,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.connector" />
         <item itemvalue="Python.trial" />
       </list>
     </recent_temporary>
@@ -129,13 +154,22 @@
       <option name="project" value="LOCAL" />
       <updated>1760101541680</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="start working on get_historical_candles method">
+      <option name="closed" value="true" />
+      <created>1760105944453</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760105944453</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="update .gitignore" />
     <MESSAGE value="create trial.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="create trial.py" />
+    <MESSAGE value="start working on get_historical_candles method" />
+    <option name="LAST_COMMIT_MESSAGE" value="start working on get_historical_candles method" />
   </component>
 </project>
